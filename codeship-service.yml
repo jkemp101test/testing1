@@ -1,0 +1,4 @@
+cioapp:
+  build:
+    image: cio/apptest
+    dockerfile: Dockerfile
