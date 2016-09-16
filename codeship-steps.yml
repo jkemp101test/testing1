@@ -1,3 +1,5 @@
+- name: prepare file
+  command: touch joe.txt
 - name: teststep
   command: echo teststeping
   service: cioapp
