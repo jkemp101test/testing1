@@ -1,0 +1,8 @@
+sudo: required
+dist: trusty
+
+service:
+  - docker
+script:
+  - docker --version
+  - python --version
