@@ -1,0 +1,12 @@
+sudo: required
+dist: trusty
+language: python
+python:
+  - "2.7"
+service:
+  - docker
+
+script:
+  - docker --version
+  - python --version
+  - ansible-container build
